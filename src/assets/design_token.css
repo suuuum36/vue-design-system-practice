@@ -1,0 +1,22 @@
+:root {
+    --neutral_0 : #FFFFFF;
+    --neutral_5 : #F9FAFB;
+    --neutral_10 : #F3F5F6;
+    --primary : #E6007E;
+    --secondary : #140065;
+}
+
+:root {
+    --color_container_primary: var(--primary);
+    --color_container_secondary: var(--secondary);
+}
+
+:root {
+    --color_text_neutral_0: var(--neutral_0);
+    --color_text_primary:var(--primary);
+}
+
+:root {
+    --color_border_primary: var(--primary);
+    --color_border_secondary: var(--secondary);
+}
