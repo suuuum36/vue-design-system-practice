@@ -1,0 +1,16 @@
+/*color*/
+:root {
+    --neutral_0 : #FFFFFF;
+    --neutral_5 : #F9FAFB;
+    --neutral_10 : #F3F5F6;
+    --primary : #E6007E;
+    --secondary : #140065;
+}
+
+/*font*/
+:root {
+    --font_size_heading_1 : 36px;
+    --font_size_heading_2 : 32px;
+    --font_weight_bold :  700;
+    --font_weight_medium : 500;
+}

@@ -1,0 +1,63 @@
+@import "../tokens/color.scss";
+@import "../tokens/variables.scss";
+
+/*common property settings*/
+.solid {
+    border: none;
+}
+
+.outline {
+    background: $color_text_neutral_0;
+}
+
+.text {
+    background: $color_text_neutral_0;
+    border: none;
+}
+
+/*size settings : 1rem = 16px*/
+.large {
+    padding: 0 20px 0 20px;
+    height: 3.25rem;
+}
+
+.medium {
+    padding: 0 16px 0 16px;
+    height: 2.5rem;
+}
+
+.small {
+    padding: 0 12px 0 12px;
+    height: 2.1875rem;
+}
+
+/*primaryButton settings*/
+.primaryButton.solid {
+    background: $color_container_primary;
+    color: $color_text_neutral_0;
+}
+
+.primaryButton.outline {
+    color: $color_text_primary;
+    border: $color_border_primary 1px solid;
+}
+
+.primaryButton.text {
+    color: $color_text_primary;
+}
+
+
+/*secondaryButton settings*/
+.secondaryButton.solid {
+    background: $color_container_secondary;
+    color: $color_text_neutral_0;
+}
+
+.secondaryButton.outline {
+    color: $color_text_secondary;
+    border: $color_border_secondary 1px solid;
+}
+
+.secondaryButton.text {
+    color: $color_text_secondary;
+}

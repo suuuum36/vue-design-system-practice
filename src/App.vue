@@ -14,7 +14,7 @@ export default {
     <Button
       name='secondaryButton'
       type='solid'
-      size='medium'
+      size='small'
       state='normal'
       ic_start=false
       ic_end=false >
